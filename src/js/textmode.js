@@ -187,8 +187,8 @@ textmode.create = function (container, options) {
 
     if (this.mode == 'code') {
       var poweredBy = document.createElement('a');
-      poweredBy.appendChild(document.createTextNode('powered by ace'));
-      poweredBy.href = 'http://ace.ajax.org';
+      poweredBy.appendChild(document.createTextNode('powered by apiplatform'));
+      poweredBy.href = 'https://apiplatform.io';
       poweredBy.target = '_blank';
       poweredBy.className = 'jsoneditor-poweredBy';
       poweredBy.onclick = function () {
